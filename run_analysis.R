@@ -54,4 +54,4 @@ colnames(ecdata) <- labels
 bothmeans <- ecdata %>% group_by(Activity, Subject) %>% summarize_all(funs(mean))
 
 # save the dataset
-write_csv(bothmeans, "td-meansbysubjnact.csv", na = "NA")
+write.table(bothmeans, "td-meansbysubjnact.txt", na = "NA", row.names = FALSE)

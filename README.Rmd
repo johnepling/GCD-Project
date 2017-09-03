@@ -12,4 +12,4 @@ The files in this repo are:
 - This README file - **README.Rmd**  
 - A single script for this project - **run_analysis.R** - which is commented and performs all the data functions required for the project.  
 - A codebook documenting the data and the processes used to create the "tidy" dataset - **Codebook.Rmd**  
-- The "tidy" dataset of means by Activity and Subject - **td-meansbysubjnact.csv**  
+- The "tidy" dataset of means by Activity and Subject - **td-meansbysubjnact.txt**  

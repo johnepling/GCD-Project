@@ -23,7 +23,7 @@ To prepare the "tidy" dataset submitted, the run_analysis.R script does the foll
 10. Selects out the data on means and accompanying standard deviations to form a smaller dataset, retaining subject and activity information.  
 11. Sorts data by Activity, then Subject and means are calculated for each variable.  
       - A slightly "wide" dataset, ordered as above, was thought to be the tidyest presentation of the            requested data.  
-12. Writes CSV file with data.  
+12. Writes txt file with data.  
 
 Key to Variable Names:  
 1.  Activity - (from activity_labels.txt) - Laying, Sitting, Standing, Walking, Walking Upstairs, Walking Downstairs.  
